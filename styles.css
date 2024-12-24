@@ -1,24 +1,27 @@
 body {  
-    background-color: #f0f8ff;  
+    background: url('https://www.transparentpng.com/download/tS4N8v-ice-snow-snowflake.png') no-repeat center center fixed;  
+    background-size: cover;  
     font-family: 'Arial', sans-serif;  
     text-align: center;  
-    overflow: hidden; /* Tránh cuộn trang khi có nhiều hiệu ứng */  
+    overflow: hidden;  
 }  
 
 h1 {  
-    color: #2f4f4f;  
+    color: #fff;  
+    text-shadow: 2px 2px 4px #000;  
 }  
 
 #username {  
     padding: 10px;  
     margin: 10px 0;  
-    border: 2px solid #008b8b;  
+    border: 2px solid #fff;  
     border-radius: 5px;  
+    background-color: rgba(255, 255, 255, 0.6);  
 }  
 
 button {  
     padding: 10px 20px;  
-    background-color: #008b8b;  
+    background-color: #007BFF;  
     color: white;  
     border: none;  
     border-radius: 5px;  
@@ -26,7 +29,7 @@ button {
 }  
 
 button:hover {  
-    background-color: #005757;  
+    background-color: #0056b3;  
 }  
 
 .hidden {  
@@ -39,7 +42,7 @@ button:hover {
     left: 0;  
     right: 0;  
     bottom: 0;  
-    pointer-events: none; /* Không cho phép tương tác với lớp tuyết */  
+    pointer-events: none;  
 }  
 
 .snowflake {  
